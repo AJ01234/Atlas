@@ -1,6 +1,6 @@
 # Venture Atlas — Master Index
 
-**Version:** v3.1 — Consolidated + Empirical Validation Layer  
+**Version:** v3.2 — Consolidated + Executed Empirical Validation  
 **Date:** 22 August 2026  
 **Status:** Consolidated research master
 
@@ -68,15 +68,21 @@
 
 36 — `36-EMPIRICAL-VALIDATION-2026.md` — 2026 Empirical Validation  
 37 — `37-EMPIRICAL-DATASET-SPEC.md` — Company-Level Dataset Specification  
-38 — `38-W26-QUANTITATIVE-VALIDATION.md` — W26 Quantitative Validation
+38 — `38-W26-QUANTITATIVE-VALIDATION.md` — W26 Quantitative Validation  
+40 — `40-EMPIRICAL-VALIDATION-RUN.md` — Executed empirical validation run
+
+Supporting data:
+
+- `analysis/ycbench_w26_traction.csv` — reproducible 11-company W26 traction subset used for the executed correlation checks.
+- `analysis/build_yc_panel.py` — reproducible public-portfolio panel builder and proxy-test code; its unsupported keyword proxy is not treated as a final H2 test.
 
 ## RECOMMENDED READING PATH
 
-**01 → 02 → 11 → 12 → 13–24 → 25A → 25B → 26 → 27 → 28 → 29 → 30 → 31 → 35 → 32 → 33 → 34 → 36 → 37 → 38**
+**01 → 02 → 11 → 12 → 13–24 → 25A → 25B → 26 → 27 → 28 → 29 → 30 → 31 → 35 → 32 → 33 → 34 → 36 → 37 → 38 → 40**
 
 Research-system path:
 
-**Methodology → Frameworks → Evidence → Selection Model → Investor Comparison → Founder Patterns → Market Maps → Opportunities → Company Profiles → Founder Playbook → Empirical Validation → Dataset → Quantitative Validation → Backtesting**
+**Methodology → Frameworks → Evidence → Selection Model → Investor Comparison → Founder Patterns → Market Maps → Opportunities → Company Profiles → Founder Playbook → Empirical Validation → Dataset → Quantitative Validation → Executed Tests → Backtesting**
 
 ## CANONICAL INTELLECTUAL SEQUENCE
 
@@ -103,19 +109,21 @@ Empirical validation
       ↓
 Quantitative cohort validation
       ↓
-Company-level backtesting
+Executed proxy tests
+      ↓
+Acceptance-time company-level backtesting
       ↓
 Updated investor model
 ```
 
 ## CURRENT VALIDATION STATUS
 
-The empirical layer now establishes preliminary quantitative evidence for the model, but does **not** claim final causal proof.
+The empirical work has now been **actually executed where public evidence permits**. The Atlas does not convert proxy results into causal claims.
 
-- H1 Founder capability — directionally supported
-- H2 Problem leverage — directionally supported
-- H3 AI leverage — strong current portfolio evidence
-- H4 Early-stage judgment — untested
-- H5 Venture-scale potential — structurally supported, not causally validated
+- **H1 Founder capability — not directly testable from the public W26 panel; external YC research provides directional evidence.**
+- **H2 Problem leverage — not yet validly tested; the earlier keyword proxy is rejected as insufficient.**
+- **H3 AI leverage — strong current portfolio evidence; causal outcome effect remains untested.**
+- **H4 Early-stage judgment — partially informed by YC Bench's external forecasting benchmark, but YC selection itself remains untested.**
+- **H5 Venture-scale potential — structurally plausible, not causally validated.**
 
-The next milestone is the company-level panel described in Chapter 37 and its statistical analysis.
+The next milestone is **not another narrative chapter**. It is obtaining/building a sufficiently rich acceptance-time panel, ideally including rejected applicants, and running the preregistered H1–H5 models with temporal holdouts and ablation tests.
