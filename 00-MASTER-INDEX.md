@@ -1,6 +1,6 @@
 # Venture Atlas — Master Index
 
-**Version:** v3.0 — Consolidated + Empirical Validation Layer  
+**Version:** v3.1 — Consolidated + Empirical Validation Layer  
 **Date:** 22 August 2026  
 **Status:** Consolidated research master
 
@@ -67,15 +67,16 @@
 ## PART VII — EMPIRICAL VALIDATION
 
 36 — `36-EMPIRICAL-VALIDATION-2026.md` — 2026 Empirical Validation  
-37 — `37-EMPIRICAL-DATASET-SPEC.md` — Company-Level Dataset Specification
+37 — `37-EMPIRICAL-DATASET-SPEC.md` — Company-Level Dataset Specification  
+38 — `38-W26-QUANTITATIVE-VALIDATION.md` — W26 Quantitative Validation
 
 ## RECOMMENDED READING PATH
 
-**01 → 02 → 11 → 12 → 13–24 → 25A → 25B → 26 → 27 → 28 → 29 → 30 → 31 → 35 → 32 → 33 → 34 → 36 → 37**
+**01 → 02 → 11 → 12 → 13–24 → 25A → 25B → 26 → 27 → 28 → 29 → 30 → 31 → 35 → 32 → 33 → 34 → 36 → 37 → 38**
 
 Research-system path:
 
-**Methodology → Frameworks → Evidence → Selection Model → Investor Comparison → Founder Patterns → Market Maps → Opportunities → Company Profiles → Founder Playbook → Empirical Validation → Backtesting**
+**Methodology → Frameworks → Evidence → Selection Model → Investor Comparison → Founder Patterns → Market Maps → Opportunities → Company Profiles → Founder Playbook → Empirical Validation → Dataset → Quantitative Validation → Backtesting**
 
 ## CANONICAL INTELLECTUAL SEQUENCE
 
@@ -100,6 +101,8 @@ Founder application
       ↓
 Empirical validation
       ↓
+Quantitative cohort validation
+      ↓
 Company-level backtesting
       ↓
 Updated investor model
@@ -107,7 +110,7 @@ Updated investor model
 
 ## CURRENT VALIDATION STATUS
 
-The empirical layer now establishes preliminary evidence for the model, but does **not** claim final causal proof.
+The empirical layer now establishes preliminary quantitative evidence for the model, but does **not** claim final causal proof.
 
 - H1 Founder capability — directionally supported
 - H2 Problem leverage — directionally supported
@@ -115,4 +118,4 @@ The empirical layer now establishes preliminary evidence for the model, but does
 - H4 Early-stage judgment — untested
 - H5 Venture-scale potential — structurally supported, not causally validated
 
-The next milestone is the company-level panel described in Chapter 37.
+The next milestone is the company-level panel described in Chapter 37 and its statistical analysis.
